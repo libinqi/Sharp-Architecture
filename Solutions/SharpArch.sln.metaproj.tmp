@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore')" />
+  <Import Project="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\before.SharpArch.sln.targets" Condition="exists('D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\before.SharpArch.sln.targets')" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>Mixed Platforms</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>SharpArch.sln</SolutionFileName>
+    <SolutionName>SharpArch</SolutionName>
+    <SolutionPath>D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0')">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '4.0'">v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{E12E99BB-8732-441F-B3A6-861F0CE23D3D}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BF4E3D18-2EFB-49E3-9D8D-0F9F9BE1094A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C201296D-09B7-4BAE-96F0-AB59F624DB36}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{D6DDE603-4678-44B9-A2D1-101BF5D12AD7}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7F5E614-3B4E-43EC-8F8A-CB46B89A3827}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A3B21E07-F25F-46D3-B4DE-EA29A0A4A831}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CB7976A2-5089-4AC8-83C3-24FAB6F50ED4}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B556850E-2EE3-4D1E-9A56-1D7C7C1C95EC}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{0BD77F13-8DF6-4C16-9508-33AA4CF0677A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5C2EA19A-E547-4E55-B36E-B25CA9EFEF21}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EB01CD4D-CFB9-4924-8388-078D59543D58}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{35EC85F7-5D2E-4FE0-842A-807598FB6D1F}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Mixed Platforms') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{E12E99BB-8732-441F-B3A6-861F0CE23D3D}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BF4E3D18-2EFB-49E3-9D8D-0F9F9BE1094A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C201296D-09B7-4BAE-96F0-AB59F624DB36}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{D6DDE603-4678-44B9-A2D1-101BF5D12AD7}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7F5E614-3B4E-43EC-8F8A-CB46B89A3827}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A3B21E07-F25F-46D3-B4DE-EA29A0A4A831}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CB7976A2-5089-4AC8-83C3-24FAB6F50ED4}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B556850E-2EE3-4D1E-9A56-1D7C7C1C95EC}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{0BD77F13-8DF6-4C16-9508-33AA4CF0677A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5C2EA19A-E547-4E55-B36E-B25CA9EFEF21}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EB01CD4D-CFB9-4924-8388-078D59543D58}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{35EC85F7-5D2E-4FE0-842A-807598FB6D1F}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{E12E99BB-8732-441F-B3A6-861F0CE23D3D}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BF4E3D18-2EFB-49E3-9D8D-0F9F9BE1094A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C201296D-09B7-4BAE-96F0-AB59F624DB36}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{D6DDE603-4678-44B9-A2D1-101BF5D12AD7}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7F5E614-3B4E-43EC-8F8A-CB46B89A3827}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A3B21E07-F25F-46D3-B4DE-EA29A0A4A831}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CB7976A2-5089-4AC8-83C3-24FAB6F50ED4}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B556850E-2EE3-4D1E-9A56-1D7C7C1C95EC}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{0BD77F13-8DF6-4C16-9508-33AA4CF0677A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5C2EA19A-E547-4E55-B36E-B25CA9EFEF21}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EB01CD4D-CFB9-4924-8388-078D59543D58}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{35EC85F7-5D2E-4FE0-842A-807598FB6D1F}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{E12E99BB-8732-441F-B3A6-861F0CE23D3D}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BF4E3D18-2EFB-49E3-9D8D-0F9F9BE1094A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C201296D-09B7-4BAE-96F0-AB59F624DB36}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{D6DDE603-4678-44B9-A2D1-101BF5D12AD7}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7F5E614-3B4E-43EC-8F8A-CB46B89A3827}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A3B21E07-F25F-46D3-B4DE-EA29A0A4A831}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CB7976A2-5089-4AC8-83C3-24FAB6F50ED4}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B556850E-2EE3-4D1E-9A56-1D7C7C1C95EC}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{0BD77F13-8DF6-4C16-9508-33AA4CF0677A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5C2EA19A-E547-4E55-B36E-B25CA9EFEF21}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EB01CD4D-CFB9-4924-8388-078D59543D58}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{35EC85F7-5D2E-4FE0-842A-807598FB6D1F}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Mixed Platforms') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{E12E99BB-8732-441F-B3A6-861F0CE23D3D}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BF4E3D18-2EFB-49E3-9D8D-0F9F9BE1094A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C201296D-09B7-4BAE-96F0-AB59F624DB36}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{D6DDE603-4678-44B9-A2D1-101BF5D12AD7}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7F5E614-3B4E-43EC-8F8A-CB46B89A3827}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A3B21E07-F25F-46D3-B4DE-EA29A0A4A831}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CB7976A2-5089-4AC8-83C3-24FAB6F50ED4}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B556850E-2EE3-4D1E-9A56-1D7C7C1C95EC}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{0BD77F13-8DF6-4C16-9508-33AA4CF0677A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5C2EA19A-E547-4E55-B36E-B25CA9EFEF21}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EB01CD4D-CFB9-4924-8388-078D59543D58}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{35EC85F7-5D2E-4FE0-842A-807598FB6D1F}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{E12E99BB-8732-441F-B3A6-861F0CE23D3D}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BF4E3D18-2EFB-49E3-9D8D-0F9F9BE1094A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C201296D-09B7-4BAE-96F0-AB59F624DB36}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{D6DDE603-4678-44B9-A2D1-101BF5D12AD7}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7F5E614-3B4E-43EC-8F8A-CB46B89A3827}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A3B21E07-F25F-46D3-B4DE-EA29A0A4A831}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CB7976A2-5089-4AC8-83C3-24FAB6F50ED4}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B556850E-2EE3-4D1E-9A56-1D7C7C1C95EC}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{0BD77F13-8DF6-4C16-9508-33AA4CF0677A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5C2EA19A-E547-4E55-B36E-B25CA9EFEF21}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EB01CD4D-CFB9-4924-8388-078D59543D58}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{35EC85F7-5D2E-4FE0-842A-807598FB6D1F}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter')" />
+  <Import Project="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\after.SharpArch.sln.targets" Condition="exists('D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\after.SharpArch.sln.targets')" />
+  <Target Name="Build" />
+  <Target Name="Rebuild" />
+  <Target Name="Clean" />
+  <Target Name="Publish" />
+</Project>

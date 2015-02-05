@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects" DefaultTargets="Build">
+  <PropertyGroup>
+    <MSBuildToolsRoot>C:\WINDOWS\Microsoft.NET\Framework\</MSBuildToolsRoot>
+    <FrameworkSDKRoot />
+    <MSBuildRuntimeVersion>4.0.30319</MSBuildRuntimeVersion>
+    <SDK40ToolsPath />
+    <SDK35ToolsPath />
+    <MSBuildToolsPath32>C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\</MSBuildToolsPath32>
+    <VCTargetsPath>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\</VCTargetsPath>
+    <AspNetConfiguration>Release</AspNetConfiguration>
+    <SolutionDir>D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>SharpArch.sln</SolutionFileName>
+    <SolutionName>SharpArch</SolutionName>
+    <SolutionPath>D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.sln</SolutionPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{E12E99BB-8732-441F-B3A6-861F0CE23D3D}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BF4E3D18-2EFB-49E3-9D8D-0F9F9BE1094A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{C201296D-09B7-4BAE-96F0-AB59F624DB36}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{D6DDE603-4678-44B9-A2D1-101BF5D12AD7}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7F5E614-3B4E-43EC-8F8A-CB46B89A3827}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A3B21E07-F25F-46D3-B4DE-EA29A0A4A831}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CB7976A2-5089-4AC8-83C3-24FAB6F50ED4}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B556850E-2EE3-4D1E-9A56-1D7C7C1C95EC}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{0BD77F13-8DF6-4C16-9508-33AA4CF0677A}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5C2EA19A-E547-4E55-B36E-B25CA9EFEF21}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EB01CD4D-CFB9-4924-8388-078D59543D58}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{35EC85F7-5D2E-4FE0-842A-807598FB6D1F}" AbsolutePath="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="Build" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Projects="@(ProjectReference)" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="ValidateProjects">
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Domain&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Domain&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Mvc&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Mvc&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Tests&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Tests&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Testing.NUnit&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Testing.NUnit&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Wcf&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Wcf&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.WcfClient.Castle&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.WcfClient.Castle&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Specifications&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Specifications&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.RavenDb&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.RavenDb&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.NHibernate&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.NHibernate&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Mvc.Castle&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Mvc.Castle&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Http.Castle&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Http.Castle&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Http&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;SharpArch.Web.Http&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+  </Target>
+  <Target Name="ValidateToolsVersions">
+    <Error Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" Text="The tools version &quot;$(MSBuildToolsVersion)&quot; of the solution does not support building projects with a different tools version." Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" />
+  </Target>
+  <Target Name="ValidateSolutionConfiguration">
+    <Error Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Warning Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Message Condition="'$(CurrentSolutionConfigurationContents)' != ''" Text="Building solution configuration &quot;$(Configuration)|$(Platform)&quot;." />
+  </Target>
+  <Target Name="Clean">
+    <MSBuild Projects="@(ProjectReference-&gt;Reverse())" Targets="Clean" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+  </Target>
+  <Target Name="Rebuild" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Publish">
+    <MSBuild Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+  </Target>
+  <Target Name="Domain\SharpArch_Domain" Outputs="@(Domain_SharpArch_DomainBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Domain_SharpArch_DomainBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Domain\SharpArch_Domain:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Domain\SharpArch_Domain:Rebuild" Outputs="@(Domain_SharpArch_DomainBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Domain_SharpArch_DomainBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Domain\SharpArch_Domain:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Domain\SharpArch.Domain.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Mvc" Outputs="@(Presentation_SharpArch_Web_MvcBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Presentation_SharpArch_Web_MvcBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Mvc:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Mvc:Rebuild" Outputs="@(Presentation_SharpArch_Web_MvcBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Presentation_SharpArch_Web_MvcBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Mvc:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc\SharpArch.Web.Mvc.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Tests\SharpArch_Tests" Outputs="@(Tests_SharpArch_TestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Tests_SharpArch_TestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Tests\SharpArch_Tests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Tests\SharpArch_Tests:Rebuild" Outputs="@(Tests_SharpArch_TestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Tests_SharpArch_TestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Tests\SharpArch_Tests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Tests\SharpArch.Tests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Tests\SharpArch_Testing_NUnit" Outputs="@(Tests_SharpArch_Testing_NUnitBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Tests_SharpArch_Testing_NUnitBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Tests\SharpArch_Testing_NUnit:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Tests\SharpArch_Testing_NUnit:Rebuild" Outputs="@(Tests_SharpArch_Testing_NUnitBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Tests_SharpArch_Testing_NUnitBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Tests\SharpArch_Testing_NUnit:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Testing.NUnit\SharpArch.Testing.NUnit.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Presentation\SharpArch_Wcf" Outputs="@(Presentation_SharpArch_WcfBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Presentation_SharpArch_WcfBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Presentation\SharpArch_Wcf:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Presentation\SharpArch_Wcf:Rebuild" Outputs="@(Presentation_SharpArch_WcfBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Presentation_SharpArch_WcfBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Presentation\SharpArch_Wcf:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Wcf\SharpArch.Wcf.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Framework\SharpArch_WcfClient_Castle" Outputs="@(Framework_SharpArch_WcfClient_CastleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_SharpArch_WcfClient_CastleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\SharpArch_WcfClient_Castle:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Framework\SharpArch_WcfClient_Castle:Rebuild" Outputs="@(Framework_SharpArch_WcfClient_CastleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_SharpArch_WcfClient_CastleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\SharpArch_WcfClient_Castle:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.WcfClient.Castle\SharpArch.WcfClient.Castle.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Specs\SharpArch_Specifications" Outputs="@(Specs_SharpArch_SpecificationsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Specs_SharpArch_SpecificationsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Specs\SharpArch_Specifications:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Specs\SharpArch_Specifications:Rebuild" Outputs="@(Specs_SharpArch_SpecificationsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Specs_SharpArch_SpecificationsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Specs\SharpArch_Specifications:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Specifications\SharpArch.Specifications.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Infrastructure\SharpArch_RavenDb" Outputs="@(Infrastructure_SharpArch_RavenDbBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Infrastructure_SharpArch_RavenDbBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Infrastructure\SharpArch_RavenDb:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Infrastructure\SharpArch_RavenDb:Rebuild" Outputs="@(Infrastructure_SharpArch_RavenDbBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Infrastructure_SharpArch_RavenDbBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Infrastructure\SharpArch_RavenDb:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.RavenDb\SharpArch.RavenDb.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Infrastructure\SharpArch_NHibernate" Outputs="@(Infrastructure_SharpArch_NHibernateBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Infrastructure_SharpArch_NHibernateBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Infrastructure\SharpArch_NHibernate:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Infrastructure\SharpArch_NHibernate:Rebuild" Outputs="@(Infrastructure_SharpArch_NHibernateBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Infrastructure_SharpArch_NHibernateBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Infrastructure\SharpArch_NHibernate:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.NHibernate\SharpArch.NHibernate.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Mvc_Castle" Outputs="@(Framework_SharpArch_Web_Mvc_CastleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_SharpArch_Web_Mvc_CastleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Mvc_Castle:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Mvc_Castle:Rebuild" Outputs="@(Framework_SharpArch_Web_Mvc_CastleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_SharpArch_Web_Mvc_CastleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Mvc_Castle:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Mvc.Castle\SharpArch.Web.Mvc.Castle.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Http_Castle" Outputs="@(Framework_SharpArch_Web_Http_CastleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_SharpArch_Web_Http_CastleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Http_Castle:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Http_Castle:Rebuild" Outputs="@(Framework_SharpArch_Web_Http_CastleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_SharpArch_Web_Http_CastleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\SharpArch_Web_Http_Castle:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http.Castle\SharpArch.Web.Http.Castle.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Http" Outputs="@(Presentation_SharpArch_Web_HttpBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Presentation_SharpArch_Web_HttpBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Http:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Http:Rebuild" Outputs="@(Presentation_SharpArch_Web_HttpBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Presentation_SharpArch_Web_HttpBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Presentation\SharpArch_Web_Http:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\BuildAgent-02\work\84755ac43fe5de83\Solutions\SharpArch.Web.Http\SharpArch.Web.Http.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+</Project>
